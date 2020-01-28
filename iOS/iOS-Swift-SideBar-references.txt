@@ -1,0 +1,14 @@
+iOS Swift SideBar references
+
+https://github.com/teodorpatras/SideMenuController
+
+https://github.com/instamobile/drawer-menu-swift
+
+Simpler side menu
+https://medium.com/@prathamsalvi27/hamburger-menu-on-uitabbarcontroller-swift-d2ac929937a3
+
+full side menu and navigation
+https://www.appcoda.com/ios-programming-sidebar-navigation-menu/
+code -> https://github.com/appcoda/Slideout-Sidebar-Demo
+
+additional -> https://github.com/John-Lluch/SWRevealViewController
