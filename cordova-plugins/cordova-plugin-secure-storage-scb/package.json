@@ -1,0 +1,14 @@
+{
+  "name": "cordova-plugin-secure-storage-scb",
+  "version": "3.0.2",
+  "description": "Secure storage plugin for iOS & Android",
+  "author": "TeamSCB",
+  "cordova": {
+    "id": "cordova-plugin-secure-storage-scb",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "main": "www/securestorage.js"
+}
