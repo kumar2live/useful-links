@@ -1,0 +1,68 @@
+Spec:
+import { of } from 'rxjs';
+import { take } from 'rxjs/operators';
+
+const getOfflineEvent = 'getOfflineEvent$';
+const getOnlineEvent = 'getOnlineEvent$';
+
+it('should checkIfConnectionOnline for offline event', () => {
+spyOn(utils, getOfflineEvent).and.returnValue(of(true));
+spyOn(utils, getOnlineEvent).and.returnValue(of());
+utils.checkIfConnectionOnline().pipe(take(1)).subscribe((data) => {
+  expect(data).toEqual(false);
+});
+});
+
+it('should checkIfConnectionOnline for online event', () => {
+spyOn(utils, getOfflineEvent).and.returnValue(of());
+spyOn(utils, getOnlineEvent).and.returnValue(of(true));
+utils.checkIfConnectionOnline().pipe(take(1)).subscribe((data) => {
+  expect(data).toEqual(true);
+});
+});
+
+it('should getOfflineEvent$', () => {
+spyOn(utils, getOfflineEvent).and.returnValue(of());
+spyOn(utils, getOnlineEvent).and.returnValue(of());
+utils.checkIfConnectionOnline().pipe(take(1)).subscribe((data) => {
+  expect(data).toEqual(true);
+});
+});
+
+it('should getOfflineEvent$', () => {
+expect(utils.getOfflineEvent$()).toBeTruthy();
+});
+
+it('should getOnlineEvent$', () => {
+expect(utils.getOnlineEvent$()).toBeTruthy();
+});
+
+
+core:
+/**
+* check If connection is online
+*/
+checkIfConnectionOnline() {
+return merge<boolean>(
+  this.getOfflineEvent$().pipe(map(() => false)),
+  this.getOnlineEvent$().pipe(map(() => true)),
+  new Observable((internet: Observer<boolean>) => {
+    internet.next(navigator.onLine);
+    internet.complete();
+  }),
+);
+}
+
+/**
+* getOfflineEvent
+*/
+getOfflineEvent$() {
+return fromEvent(this.windowRef.nativeWindow, 'offline');
+}
+
+/**
+* getOnlineEvent
+*/
+getOnlineEvent$() {
+return fromEvent(this.windowRef.nativeWindow, 'online');
+}
