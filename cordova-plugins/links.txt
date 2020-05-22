@@ -2,3 +2,16 @@ https://github.com/grausof/cordova-plugin-secure-storage/tree/master/src/android
 
 https://github.com/Crypho/cordova-plugin-secure-storage/tree/master/src/android
 
+
+https://stackoverflow.com/questions/36676263/chart-js-v2-hiding-grid-lines
+https://chartjs-plugin-datalabels.netlify.app/guide/positioning.html
+https://dev.to/chooblarin/bar-chart-with-rounded-corner-by-d3js-2hid
+https://github.com/jplemieux66/angular-d3-responsive
+http://jsfiddle.net/chrisJamesC/tNdJj/4/
+https://stackoverflow.com/questions/15388481/d3-js-histogram-with-positive-and-negative-values/15391554#15391554
+https://github.com/swimlane/ngx-charts
+https://swimlane.github.io/ngx-charts/#/ngx-charts/combo-chart
+https://swimlane.gitbook.io/ngx-charts/custom-charts
+https://swimlane.github.io/ngx-charts/#/ngx-charts/bar-vertical
+https://valor-software.com/ng2-charts/#/BarChart
+
