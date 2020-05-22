@@ -1,0 +1,75 @@
+
+https://pvm.standardchartered.com/nfs5n/services/security/initE2E?rand=1588327308163
+
+request:
+
+POST /nfs5n/services/security/initE2E?rand=1588327308163 HTTP/1.1
+Host: pvm.standardchartered.com
+Connection: keep-alive
+Content-Length: 158
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+endPoint: security/initE2E
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36
+Content-Type: application/json
+Origin: https://pvm.standardchartered.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://pvm.standardchartered.com/pvb/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: JSESSIONID=4A06EDEB6F80AB48FB08BF16BC37A88B.PRD_PVB-FO_HK_04; AWSMEPD2=HKLVAPAPP702; AWSWEB=web1; AWSBIZD2=HKLVASAPP702; AWSAPID2=HKLVASAPP702; AWSELB=web2; c_user=Ue4DizboAU6EMxIhgXHl3V4; token=T188_ccWkIVo3hDfhxUXiIL
+
+
+
+response:
+
+{
+  "responseHeader": {
+    "status": 1,
+    "nonce": "99cd41eaf992924ccf061eaf1613",
+    "currentTimestamp": "2020-05-01T18:01:48.773+0800"
+  },
+  "responseBody": {
+    "e2eRsaExponent": "10001",
+    "e2eRsaModulus": "97a3a02408b57e9ed02971983562c5709a92a1d0bd1289b978e46f73f3494ef81e8cb878af6e0391e782ebcd38831ecb1a6798a1f479992d55d76a89ff364864147c47c147c992524009873628a247a0addb246ff7dc17a7f00e2335d99a4826a7f5541f244b743a8293e96456593fd827b6ea1b6eedf65dca1a3da48531c4bfabc22ee47192da78d1d533f9bab1455d00faf2687985ff57f27e5b2cab536d8e3c2b34a8ccfcb63e6142da20371d22e321c262a11e1928fdb9d90a92cac3511d04d0e48043d727fc6088828a45dd813f4168aa68d820c764efc0ac76a091128c9ae36a0931f70f0ff02464015d1fd3a066884dfc886d0efa2953307893d70c89",
+    "securityNonce": "f09be48c347c7445cabaa67f4de1"
+  }
+}
+
+---------------------------------------------------------------------------------------------
+https://pvm.standardchartered.com/nfs5n/services/security/login?rand=1588327308916
+login call
+==========
+request headers:
+
+POST /nfs5n/services/security/login?rand=1588327308916 HTTP/1.1
+Host: pvm.standardchartered.com
+Connection: keep-alive
+Content-Length: 907
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+endPoint: security/login
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36
+Content-Type: application/json
+Origin: https://pvm.standardchartered.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://pvm.standardchartered.com/pvb/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: JSESSIONID=7EE10AE1F6E3FBBE83CC8FEC7056F3C1.PRD_PVB-FO_HK_04; AWSMEPD2=HKLVAPAPP702; AWSWEB=web1; AWSBIZD2=HKLVASAPP702; AWSAPID2=HKLVASAPP702; AWSELB=web2; c_user=Ue4DizboAU6EMxIhgXHl3V4; token=T188_ccWkIVo3hDfhxUXiIL
+
+
+response:
+<HTML><HEAD>
+<TITLE>Gateway Timeout - In read </TITLE>
+</HEAD><BODY>
+<H1>Gateway Timeout</H1>
+The proxy server did not receive a timely response from the upstream server.<P>
+Reference&#32;&#35;1&#46;44db387d&#46;1588327428&#46;3fba02b
+</BODY></HTML>
