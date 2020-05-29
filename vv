@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="212px" viewBox="0 0 375 212" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Mobile Background</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="375" height="212"></rect>
+        <filter x="-4.3%" y="-6.6%" width="108.5%" height="115.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="91.1861462%" y1="82.9345908%" x2="15.2999707%" y2="82.9345908%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#324E89" stop-opacity="0.579444679" offset="54.4774224%"></stop>
+            <stop stop-color="#003B89" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Mobile-Background" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-8">
+            <g id="Rectangle-Copy">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#001C40" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <path d="M10.5,212 C35.5,157.304348 87.8333333,129.956522 167.5,129.956522 C247.166667,129.956522 316.333333,106.304348 375,59 L375,211.445652 L10.5,212 Z" id="Path-2-Copy" fill-opacity="0.4" fill="url(#linearGradient-3)"></path>
+        </g>
+    </g>
+</svg>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1046px" height="132px" viewBox="0 0 1046 132" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Web Background</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1046" height="132"></rect>
+        <filter x="-1.5%" y="-10.6%" width="103.1%" height="124.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="91.1861462%" y1="82.9345908%" x2="15.2999707%" y2="82.9345908%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#324E89" stop-opacity="0.579444679" offset="54.4774224%"></stop>
+            <stop stop-color="#003B89" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Web-Background" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use fill="#001C40" fill-rule="evenodd" xlink:href="#path-1"></use>
+        </g>
+        <path d="M17,132 C70.2921811,84.8115942 181.85048,61.2173913 351.674897,61.2173913 C521.499314,61.2173913 668.941015,40.8115942 794,0 L794,131.521739 L17,132 Z" id="Path-2" fill-opacity="0.6" fill="url(#linearGradient-3)"></path>
+    </g>
+</svg>
